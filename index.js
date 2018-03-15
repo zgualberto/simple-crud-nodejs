@@ -8,6 +8,11 @@ const models = require('./models');
 
 app.use( bodyParser.json() );  
 
+app.get('/', (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.json( {message: "welcome to my first nodejs API"} );
+});
+
 app.get('/hello', (req, res) => {
     res.send('hello world');
 });
