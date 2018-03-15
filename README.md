@@ -1,6 +1,6 @@
 # simple-crud-nodejs
 
-GET /api/contacts
+# GET /api/contacts
 
 sample return string:
 
@@ -57,7 +57,7 @@ sample return string:
     }
 ]
 
-POST /api/contacts
+# POST /api/contacts
 
 parameters:
 
@@ -82,7 +82,7 @@ sample return string:
     "createdAt": "2018-03-15T03:56:33.160Z"
 }
 
-PUT /api/contacts/1
+# PUT /api/contacts/1
 
 parameters:
 
@@ -107,7 +107,7 @@ sample return string:
     "updatedAt": "2018-03-15T03:56:57.273Z"
 }
 
-GET /api/contacts/3
+# GET /api/contacts/3
 
 sample return string:
 
@@ -122,7 +122,7 @@ sample return string:
     "updatedAt": "2018-03-15T03:56:57.273Z"
 }
 
-DELETE /api/contacts/3
+# DELETE /api/contacts/3
 
 sample return string:
 
